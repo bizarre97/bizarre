@@ -8,8 +8,8 @@ body{
 
 .block-1{
     background: #eeeeee;
-    
     padding-top: 50px;
+    margin-bottom: 80px;
 }
 
 .main-header {
@@ -45,26 +45,30 @@ body{
    margin-left: 240px;
    padding-top: 15px;
 }
+.main-basket img{
+    margin-right: 25px ;
+}
 .main-basket a {
     color: #000000;
 }
 .slide_1 {
-    display: none;
+    display: flex;
 }
 .slide_2 {
-    display: flex;
+    display: none;
 }
 .slide_3 {
     display: none;
 }
 .slogan {
-    max-width: 520px;
+    min-width: 520px;
     margin: auto 0;
 }
 .slogan-1 {
     font-size: 55px;
-    font-weight: 55px;
+    
     margin-bottom: 30px;
+    font-weight: 700;
 }
 .text {
     margin-bottom: 45px;
@@ -74,7 +78,7 @@ body{
     display: block;
     height: 50px;
     width: 240px;
-    border: 1px solid #fb565a;
+    
     border-radius: 5px;
     background-color: #fb565a;
     color: white;
@@ -82,8 +86,99 @@ body{
     text-align: center;
     font-weight: 18px;
     line-height: 50px;
+    margin-bottom: 80px;
     
 }
 .img{
     height: auto;
+}
+
+.servise {
+    margin-bottom: 80px ;
+    
+
+}
+.container {
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-bottom: 2px solid #eeeeee;
+}
+.service_point {
+    max-width: 300px;
+}
+.service_point img{
+    margin-bottom: 30px ;
+}
+.service_point h2{
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+
+.button1{
+    width: 160px;
+
+}
+.button2{
+    background-color: #00ca74;
+    width: 160px;
+}
+.button3{
+    background-color: #efc84a;
+    width: 160px;
+}
+
+.statistics {
+    margin-bottom: 80px;
+}
+
+.stat_block{
+    display: flex;
+    margin-bottom: 80px;
+
+}
+.stat_left {
+    min-width: 660px;
+
+}
+.stat_left h3{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.stat_left p{
+    margin-bottom: 35px;
+}
+.stat_left li{
+    background: url('../img/desh.png') 0 6px no-repeat;
+    padding: 0 0 0 35px;
+    margin-bottom: 30px;
+}
+.stat_left li :last-child{
+    margin: 0;
+}
+.bold{
+    font-weight: 700
+}
+
+
+.stat_right {
+    margin: auto 0 auto 145px;
+
+}
+.stat_title {
+
+}
+.stat_persents {
+
+}
+
+.stat_persent {
+
+}
+
+.text {
+    
 }
