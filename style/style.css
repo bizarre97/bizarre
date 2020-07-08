@@ -8,7 +8,7 @@ body{
 
 .block-1{
     background: #eeeeee;
-    height: 545px;
+    
     padding-top: 50px;
 }
 
@@ -58,8 +58,7 @@ body{
     display: none;
 }
 .slogan {
-    height: 265px;
-    width: 375px;
+    max-width: 520px;
     margin: auto 0;
 }
 .slogan-1 {
