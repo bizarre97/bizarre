@@ -4,6 +4,7 @@ body{
     font-size: 16px;
     font-weight: 24;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 .block-1{
@@ -20,7 +21,8 @@ body{
     color: #000000;
 }
 .container-1{
-    max-width: 1170px;
+    max-width: 1200px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 .logo {
@@ -73,6 +75,7 @@ body{
 .text {
     margin-bottom: 45px;
     color: #283136;
+    font-weight: 590;
 }
 .button {
     display: block;
@@ -85,28 +88,22 @@ body{
     text-transform: uppercase;
     text-align: center;
     font-weight: 18px;
-    line-height: 50px;
-    margin-bottom: 80px;
-    
+    line-height: 50px;  
 }
 .img{
     height: auto;
 }
-
-.servise {
-    margin-bottom: 80px ;
-    
-
-}
 .container {
     display: flex;
-    max-width: 1170px;
+    max-width: 1160px;
     margin: 0 auto;
     justify-content: space-between;
     border-bottom: 2px solid #eeeeee;
 }
+
 .service_point {
     max-width: 300px;
+    margin-bottom: 80px;
 }
 .service_point img{
     margin-bottom: 30px ;
@@ -131,16 +128,16 @@ body{
 }
 
 .statistics {
-    margin-bottom: 80px;
+    
 }
 
 .stat_block{
     display: flex;
     margin-bottom: 80px;
-
 }
 .stat_left {
-    min-width: 660px;
+    max-width: 660px;
+    padding-top: 80px;
 
 }
 .stat_left h3{
@@ -155,30 +152,115 @@ body{
     background: url('../img/desh.png') 0 6px no-repeat;
     padding: 0 0 0 35px;
     margin-bottom: 30px;
+    color: #283136;
 }
-.stat_left li :last-child{
+.stat_left li:last-child {
     margin: 0;
 }
 .bold{
     font-weight: 700
 }
 
-
 .stat_right {
     margin: auto 0 auto 145px;
-
 }
-.stat_title {
+.stat_right img{
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
 
+.stat_title h4 {
+    font-weight: 700;
+    margin-bottom: 50px;
 }
 .stat_persents {
-
+    display: flex
+}
+.percent_amount{
+    display: flex;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+  
+ span{
+    font-size: 24px;
+    padding-top: 2px;
 }
 
-.stat_persent {
+
+.companies {
+
+    margin-bottom: 80px ;
 
 }
+.container{
 
-.text {
+}
+.brands{
+    display: flex;
+    padding: 40px 0;
     
 }
+.brand_a{
+    flex-grow: 1;
+    min-height: 87px;
+    min-width: 301px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.brand_a:after{
+    content: "";
+    width: 2px;
+    height: 50px;
+    background-color: #eeeeee;
+    margin-left: 50px;
+}
+.brand_a:last-child{
+    margin-left: -25px;
+}
+.brand_a:last-child:after {
+    display: none;
+}
+    
+.contacts {
+}
+.adress {
+    background: url('../img/Untitled-1.png') 0 0/100% auto no-repeat scroll;
+    min-height: 420px;
+    position: relative;
+}
+.container {
+}
+.adress_position {
+    background-color: white;
+    position: absolute;
+    padding: 50px;
+    margin-top: 50px;
+    width: 320px;
+}
+
+.position {
+    align-items: center;
+}
+
+h4{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.text1 {
+    padding: 0 0 30px 0;
+    color: #666666;
+}
+.text1 a{
+    color: #666666;
+}
+.button4{
+    width: 220px;  
+}
+
+
+
