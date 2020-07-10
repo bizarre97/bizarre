@@ -39,6 +39,13 @@ background-color: #e74246;
     box-shadow: inset 0 2px 0 rgba(0,0,0,0.3);
     
 }
+.text {
+    margin-bottom: 45px;
+    color: #283136;
+    font-weight: 590;
+    max-width: 420px;
+    line-height: 21px;
+}
 /* header */
 .main-header {
     display: flex;
@@ -59,6 +66,7 @@ background-color: #e74246;
     max-width: 1200px;
     padding: 0 20px;
     margin: 0 auto;
+    
 }
 
 .main-navigation {
@@ -123,7 +131,7 @@ background-color: #e74246;
     display: none;
 }
 .slogan {
-    min-width: 520px;
+    min-width: 517px;
     margin: auto 0;
 }
 .slogan-1 {
@@ -132,14 +140,10 @@ background-color: #e74246;
     margin-bottom: 30px;
     font-weight: 700;
 }
-.text {
-    margin-bottom: 45px;
-    color: #283136;
-    font-weight: 590;
-}
 
-.img{
+.img img{
     height: auto;
+    width: 643px ;
 }
 /*  end siema_menu */
 
@@ -187,7 +191,9 @@ background-color: #e74246;
 
 .stat_block{
     display: flex;
+    justify-content: space-between;
     margin-bottom: 80px;
+    
 }
 .stat_left {
     max-width: 660px;
@@ -214,9 +220,17 @@ background-color: #e74246;
 .bold{
     font-weight: 700
 }
+.text-long {
+    max-width: 660px;
+    margin-bottom: 45px;
+    color: #283136;
+    font-weight: 590;
+    line-height: 30px;
+}
 
 .stat_right {
-    margin: auto 0 auto 145px;
+    padding-left: 160px;
+    
 }
 .stat_right img{
     margin-bottom: 40px;
@@ -337,18 +351,20 @@ h4{
     border-radius: 50%;
     margin-right: 12px;
     width: 80px;
-    height: 80px;
-    position: relative;
+    height: 80px;   
 }
-
+.apps img{
+    padding: 30px;
+}
 .apps li:hover{
     background-color: red;
 
 }.apps li:active{
-    box-shadow: inset 0 2px 0 rgba(0,0,0,0.3);   
+    box-shadow: inset 0 2px 0 rgba(0,0,0,0.4);  
+     
 }
-.apps a:active{
-
+.apps img:active{
+    opacity: 0.3;
 }
 .last{
     border-bottom: none;
@@ -363,5 +379,5 @@ h4{
     color: #444444;
 }
 
-
+/* end footer */ 
 
