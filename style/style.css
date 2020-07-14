@@ -1,20 +1,20 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 body{
-    font-size: 16px;
-    font-weight: 24;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    
     
 }
 .container {
-    display: flex;
-    max-width: 1160px;
+    max-width: 1200px;
     margin: 0 auto;
-    justify-content: space-between;
-    border-bottom: 2px solid #eeeeee;
+    
 }
 
-.block-1{
+.wrapper{
     background: #eeeeee;
     padding-top: 50px;
     margin-bottom: 80px;
@@ -42,7 +42,6 @@ background-color: #e74246;
 .text {
     margin-bottom: 45px;
     color: #283136;
-    font-weight: 590;
     max-width: 420px;
     line-height: 21px;
 }
@@ -62,9 +61,8 @@ background-color: #e74246;
     opacity: 0.3;
 
 }
-.container-1{
-    max-width: 1200px;
-    padding: 0 20px;
+.block-1{
+    max-width: 1160px;
     margin: 0 auto;
     
 }
@@ -148,9 +146,26 @@ background-color: #e74246;
 /*  end siema_menu */
 
 /* servise */
+.service{
+    padding-bottom: 80px;
+}
+.border_bottom{
+    padding: 80px;
+    border-bottom: 2px solid #e1e1e1;
+    max-width: 1160px;
+    margin: 0 auto;
+    
+}
+.proposition{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1160px;
+    margin: 0 auto;
+    
+}
 .service_point {
     max-width: 300px;
-    margin-bottom: 80px;
+    
 }
 .service_point img{
     margin-bottom: 30px ;
@@ -192,6 +207,8 @@ background-color: #e74246;
 .stat_block{
     display: flex;
     justify-content: space-between;
+    max-width: 1160px;
+    margin: 0 auto;
     margin-bottom: 80px;
     
 }
@@ -229,7 +246,8 @@ background-color: #e74246;
 }
 
 .stat_right {
-    padding-left: 160px;
+    max-width: 380px;
+    
     
 }
 .stat_right img{
@@ -338,9 +356,13 @@ h4{
 .button4{
     width: 220px;  
 }
-
+.social_apps{
+    display: flex;
+    
+}
 .apps{
    display: flex; 
+   margin-right: 140px;
 }
 
 .apps li{
@@ -366,13 +388,13 @@ h4{
 .apps img:active{
     opacity: 0.3;
 }
-.last{
-    border-bottom: none;
-}
 
+.slogan{
+  
+}
 .friends{
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 15px;
 }
 .sale{
