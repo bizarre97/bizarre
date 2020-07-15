@@ -150,11 +150,9 @@ background-color: #e74246;
     padding-bottom: 80px;
 }
 .border_bottom{
-    padding: 80px;
     border-bottom: 2px solid #e1e1e1;
     max-width: 1160px;
     margin: 0 auto;
-    
 }
 .proposition{
     display: flex;
@@ -204,12 +202,16 @@ background-color: #e74246;
 
 /* statistics*/
 
+.statistics{
+    margin-bottom: 80px;
+
+}
 .stat_block{
     display: flex;
     justify-content: space-between;
     max-width: 1160px;
     margin: 0 auto;
-    margin-bottom: 80px;
+    
     
 }
 .stat_left {
@@ -226,10 +228,21 @@ background-color: #e74246;
     margin-bottom: 35px;
 }
 .stat_left li{
-    background: url('../img/desh.png') 0 6px no-repeat;
+   position: relative;
     padding: 0 0 0 35px;
     margin-bottom: 30px;
     color: #283136;
+}
+.stat_left li:before{
+    content: "";
+    width: 22px;
+    height: 1.5px;
+    background-color: red;
+    position: absolute;
+    display: block;
+    left: 5px;
+    top: 50%;
+    
 }
 .stat_left li:last-child {
     margin: 0;
