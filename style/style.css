@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
     
@@ -20,7 +20,7 @@ body{
     margin-bottom: 80px;
 }
 .button {
-    display: block;
+    display: inline-block;
     height: 50px;
     width: 240px;
     border-radius: 5px;
@@ -42,7 +42,6 @@ background-color: #e74246;
 .text {
     margin-bottom: 45px;
     color: #283136;
-    max-width: 420px;
     line-height: 21px;
 }
 .border_bottom{
@@ -334,10 +333,10 @@ background-color: #e74246;
 
   /* footer */  
   footer{
-    padding-bottom: 80px;
+    margin-bottom: 80px;
   }
 
-  .map{
+  .section{
     background: url('../img/maps22.png');
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -391,10 +390,13 @@ h4{
    display: flex; 
    margin-right: 140px;
 }
+.apps a{
+    border-radius: 50%;
+}
 
 .apps li{
     display: flex;
-   justify-content: center;
+    justify-content: center;
     align-items: center;
     background-color: #e1e1e1;
     border-radius: 50%;
@@ -403,8 +405,9 @@ h4{
     height: 80px;   
 }
 .apps img{
-    padding: 30px;
+    padding: 30px;  
 }
+
 .apps li:hover{
     background-color: red;
 
