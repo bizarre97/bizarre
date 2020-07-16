@@ -11,6 +11,8 @@ body{
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
     
 }
 
@@ -40,7 +42,7 @@ background-color: #e74246;
     
 }
 .text {
-    margin-bottom: 45px;
+    margin-bottom: 35px;
     color: #283136;
     line-height: 21px;
 }
@@ -57,6 +59,10 @@ background-color: #e74246;
     align-items: center;
     text-transform: uppercase;
     color: #000000;
+
+}
+.logo{
+    margin-left: 15px;
 }
 .logo:hover{
     opacity: 0.8;
@@ -66,7 +72,7 @@ background-color: #e74246;
 
 }
 .block-1{
-    max-width: 1160px;
+    
     margin: 0 auto;
     
 }
@@ -74,7 +80,11 @@ background-color: #e74246;
 .main-navigation {
     list-style: none;
     color: #000000;
-    display: flex;  
+    display: flex; 
+    margin: 10px 40px 0 0px;
+
+    
+    
 }
 .main-navigation a{
     color: #000000;
@@ -83,7 +93,6 @@ background-color: #e74246;
 
 .main-navigation li{
     margin-left: 45px;
-    padding-top: 15px;  
 }
 .main-navigation a:hover{
     color: red;
@@ -94,14 +103,15 @@ background-color: #e74246;
 }
 .main-navigation a:visited{
     color: black;
-    border-bottom: 2px solid red;
 }
-.main-navigation a:active{
+.main-navigation a:focus{
+    border-bottom: 2px solid red;
     
 }
 .main-basket {
     position: relative;
-   padding-top: 15px;
+    margin: 20px 0 0 0;
+    
 }
 .main-basket img{
     margin-right: 25px;
@@ -133,19 +143,18 @@ background-color: #e74246;
     display: none;
 }
 .slogan {
-    min-width: 517px;
-    margin: auto 0;
+    margin-top: 65px;
+    padding-left: 15px;
 }
 .slogan-1 {
     font-size: 55px;
     
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     font-weight: 700;
 }
 
-.img img{
-    height: auto;
-    width: 643px ;
+.img{
+    margin-right: 20px;
 }
 /*  end siema_menu */
 
@@ -157,19 +166,17 @@ background-color: #e74246;
 .proposition{
     display: flex;
     justify-content: space-between;
-    max-width: 1160px;
-    margin: 0 auto;
-    
 }
 .service_point {
-    max-width: 300px;
-    
+    max-width: 305px;  
 }
 .service_point img{
     margin-bottom: 30px ;
 }
-.service_point h2{
-    margin-bottom: 30px;
+
+h2{
+    font-size: 24px;
+    margin-bottom: 22px;
     font-weight: 700;
 }
 
@@ -203,26 +210,22 @@ background-color: #e74246;
 /* statistics*/
 
 .statistics{
-    padding-bottom: 80px;
-
+    padding-bottom: 75px;
 }
 .stat_block{
     display: flex;
     justify-content: space-between;
-    max-width: 1160px;
-    margin: 0 auto;
-    
-    
+    max-width: 1200px;    
 }
 .stat_left {
-    max-width: 660px;
-    padding-top: 80px;
+    max-width: 655px;
+    padding-top: 75px;
 
 }
 .stat_left h3{
     font-size: 45px;
     font-weight: 700;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 .stat_left p{
     margin-bottom: 35px;
@@ -242,7 +245,7 @@ background-color: #e74246;
     display: block;
     left: 5px;
     top: 50%;
-    
+    transform: translateY(-50%);
 }
 .stat_left li:last-child {
     margin: 0;
@@ -254,32 +257,37 @@ background-color: #e74246;
     max-width: 660px;
     margin-bottom: 45px;
     color: #283136;
-    font-weight: 590;
+    font-weight: 500;
     line-height: 30px;
 }
 
 .stat_right {
     max-width: 380px;
+    padding-left: 50px; 
     
     
 }
 .stat_right img{
     margin-bottom: 40px;
-    padding-top: 40px;
+    padding-top: 42px;
 }
 
-.stat_title h4 {
+.accurasy {
     font-weight: 700;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 }
 .stat_persents {
-    display: flex
+    display: flex;  
+}
+.stat_persent{
+    margin-right: 25px;
 }
 .percent_amount{
     display: flex;
     font-size: 45px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 18px;
+    
 }
 .text_down{
     margin: 0;
@@ -333,16 +341,16 @@ background-color: #e74246;
 
   /* footer */  
   footer{
-    margin-bottom: 80px;
+    margin-bottom: 75px;
   }
 
   .section{
     background: url('../img/maps22.png');
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 45% 40%;
     background-size: cover;
     min-height: 420px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
     width: 100%;
 
   }
@@ -357,7 +365,7 @@ background-color: #e74246;
     position: absolute;
     padding: 50px;
     width: 320px;
-    margin-top: 50px;
+    margin-top: 65px;
 }
 
 
@@ -383,12 +391,11 @@ h4{
 }
 .social_apps{
     display: flex;
-    margin: 0 20px 0 20px;
-    
+    margin-left: 10px ;
 }
 .apps{
    display: flex; 
-   margin-right: 140px;
+   margin-right: 130px;
 }
 .apps a{
     border-radius: 50%;
@@ -418,10 +425,10 @@ h4{
 .apps img:active{
     opacity: 0.3;
 }
-
-.slogan{
-  
+.social_slogan{
+    margin-top: 5px;
 }
+
 .friends{
     font-size: 36px;
     font-weight: 700;
